@@ -1,0 +1,22 @@
+{
+  "name": "mail_schedule",
+  "version": "1.0.0",
+  "description": "sending mails in scheduled order",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/nodemon/bin/nodemon.js ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mohan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mssql": "^6.3.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}
